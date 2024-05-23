@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí thành viên</title>
+</head>
+<body>
+    <form action="" method="post">
+        <table width="500px">
+            <thead>
+                <tr>
+                    <th colspan="2">Đăng Ký Thành Viên</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="50%">Họ và Tên:</td>
+                    <td>
+                        <input type="text" name="fullName" id="fullName" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Tên Đăng nhập:</td>
+                    <td>
+                        <input type="text" name="userName" id="userName" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu:</td>
+                    <td>
+                        <input type="password" name="pass" id="pass" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Ảnh đại diện:</td>
+                    <td>
+                        <input type="file" name="avatar" id="avatar">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Thư điện tử:</td>
+                    <td>
+                        <input type="email" name="email" id="email" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Giới tính:</td>
+                    <td>
+                        <input type="radio" name="rdGioiTinh" id="rdNam" checked>
+                            <label for="rdNam">Nam</label>
+                        <input type="radio" name="rdGioiTinh" id="rdNu">
+                            <label for="rdNu">Nữ</label>
+                        <input type="radio" name="rdGioiTinh" id="rdKhac">
+                            <label for="rdKhac">Khác</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Sở thích:</td>
+                    <td>
+                        <input type="checkbox" name="chkBongDa" id="chkBongDa" checked>
+                            <label for="chkBongDa">Bóng đá</label>
+                        <input type="checkbox" name="chkXemPhim" id="chkXemPhim">
+                            <label for="chkXemPhim">Xem phim</label>
+                        <input type="checkbox" name="chkDuLich" id="chkDuLich" checked>
+                            <label for="chkDuLich">Du lịch</label>
+                        <input type="checkbox" name="chkBoi" id="chkBoi" checked>
+                            <label for="chkBoi">Bơi</label>
+                        <input type="checkbox" name="chkNgheNhac" id="chkNgheNhac" checked>
+                            <label for="chkNgheNhac">Nghe nhạc</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Quê quán:</td>
+                    <td>
+                        <select name="chonTinh" id="chonTinh">
+                            <option value="">--Chọn tỉnh--</option>
+                            <option value="hn">Hà Nội</option>
+<option value="qn">Quảng Ninh</option>
+                            <option value="hcm">Hồ Chí Minh</option>
+                            <option value="hd">Hải Dương</option>
+                            <option value="hp">Hải Phòng</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Địa chỉ:</td>
+                    <td>
+                        <input type="text" name="diaChi" id="diaChi" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Điện thoại:</td>
+                    <td>
+                        <input type="tel" name="tel" id="tel" size="30">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mô tả ngắn:</td>
+                    <td>
+                        <textarea name="moTa" id="moTa" cols="50" rows="5"></textarea>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot align="center">
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="sub" id="sub" value="Đăng ký">
+                        <input type="reset" name="reset" id="reset" value="Làm lại">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    <hr>
+    
